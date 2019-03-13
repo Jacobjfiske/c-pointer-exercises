@@ -18,7 +18,6 @@ void run_array_of_pointers() {
 
     for (int b = 0; b < 5; b++) {
         array[b]->a = 1;
-      //  printf("%d\n", array[b]->a);
     }
 
     free(array);
