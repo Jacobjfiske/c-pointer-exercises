@@ -9,4 +9,22 @@ void run_local_array() {
 
     // YOUR CODE HERE
 
+
+    struct car {
+        char make[10];
+        char model[10];
+        int year;
+
+    };
+
+    struct car arrayofCars[2] = {
+            {"Honda", "Civic", 2017},
+            {"Ford", "F150", 2018}
+
+    };
+
+    for (int i = 0; i < 5; i++) {
+
+    }
+
 }
